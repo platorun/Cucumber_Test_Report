@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="Cucumber Test Report">
+        <classes>
+            <!-- location: src/test/java/runner -->
+            <class name="runner.OnlineShoppingRunner" />
+        </classes>
+    </test>
+</suite>
