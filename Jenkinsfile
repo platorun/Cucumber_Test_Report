@@ -28,6 +28,10 @@ pipeline {
             mail to: "alfredocastronatividadjr@gmail.com",
                  subject: "Test Email",
                  body: "Test"
+            emailext to: "alfredocastronatividadjr@gmail.com",
+                     subject: "Test Email",
+                     body: "Test"
+
            }
     }
 }
