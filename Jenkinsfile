@@ -25,7 +25,7 @@ pipeline {
                               reportFiles: 'extent_test_report.html',
                               reportName: 'Extent Test Report'
                             ]
-            mail to: 'alfredo.natividad@platotech.com',
+            mail to: 'alfredo_natividad@yahoo.com',
                          subject: "Jenkins Pipeline Test Email",
                          body: "Please ignore this!"
            }
