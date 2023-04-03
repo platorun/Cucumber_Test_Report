@@ -25,9 +25,9 @@ pipeline {
                               reportFiles: 'extent_test_report.html',
                               reportName: 'Extent Test Report'
                             ]
-                        mail to: "boybawang1900@gmail.com",
-                        subject: "Test Email",
-                        body: "Test"
+            mail to: "alfredocastronatividadjr@gmail.com",
+                 subject: "Test Email",
+                 body: "Test"
            }
     }
 }
