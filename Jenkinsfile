@@ -25,6 +25,9 @@ pipeline {
                               reportFiles: 'extent_test_report.html',
                               reportName: 'Extent Test Report'
                             ]
+            mail to: 'alfredo.natividad@pqa.ca',
+                         subject: "Jenkins Pipeline Test Email",
+                         body: "Please ignore this!"
            }
     }
 }
