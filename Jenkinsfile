@@ -25,13 +25,7 @@ pipeline {
                               reportFiles: 'extent_test_report.html',
                               reportName: 'Extent Test Report'
                             ]
-            mail to: "alfredocastronatividadjr@gmail.com",
-                 subject: "Test Email",
-                 body: "Test"
-            emailext to: "alfredocastronatividadjr@gmail.com",
-                     subject: "Test Email",
-                     body: "Test"
-
+            emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
            }
     }
 }
