@@ -25,7 +25,7 @@ pipeline {
                               reportFiles: 'extent_test_report.html',
                               reportName: 'Extent Test Report'
                             ]
-            emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+            emailext body: 'This a test email using Jenkins Email Extension!', subject: 'Jenkins SMTP Test Email', to: 'alfredo_natividad@yahoo.com'
            }
     }
 }
